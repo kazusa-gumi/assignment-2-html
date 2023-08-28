@@ -1,73 +1,254 @@
-body{
-    font-family: Verdana, sans-serif;
-    font-size: 14px;
-    color: black;
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 20px;
+  color: black;
+  margin: 3rem;
+  line-height: 1.5;
 }
 
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    display: inline;
-    padding-left: 20px;
-   
+li {
+  display: inline;
+  padding-left: 20px;
+
+}
+
+ul li {
+  /* list-style-type: none; */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content.assignment {
+  width: 235px;
+}
+
+li>a {
+  cursor: pointer;
+  color: black;
+}
+
+.Page-title {
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 2rem;
+  line-height: 1.5;
+}
+
+.sub-title {
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.first-section {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 2rem;
+  line-height: 1.5;
+}
+
+.contact {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.my-logo {
+  width: 200px;
+  height: 150px;
+}
+
+img {
+  width: 450px;
+  height: 320px;
+  border-radius: 24px;
+}
+
+.wrap {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 340px;
+  margin-bottom: 1rem;
+}
+
+.slide {
+  display: flex;
+  -webkit-animation: slide 100s infinite linear 1s both;
+  animation: slide 100s infinite linear 1s both;
+}
+
+@-webkit-keyframes slide {
+  from {
+    transform: translateX(0);
   }
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
   }
 
-  li {
-    float: left;
+  to {
+    transform: translateX(-100%);
   }
+}
 
-  li a, .dropbtn {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+.slider:hover .slide {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
 
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+.item {
+  transition: all 0.2s;
+  margin-right: 20px;
+}
 
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
+.item:hover {
+  transform: translateY(-20px);
+  border-radius: 10px;
+  box-shadow: 0 3px 10px 0 #333;
+  opacity: 1;
+  cursor: pointer;
+}
 
-  .dropdown-content a:hover {background-color: #f1f1f1}
+.width-60 {
+  max-width: 60%;
+}
 
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+.width-40 {
+  max-width: 60%;
+}
 
-  .dropdown-content.assignment {
-    width: 235px;
-  }
+ul li[class="mark"] {
+  word-wrap: break-word;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+} 
 
-  li > a {
-    cursor: pointer;
-    color: black;
-  }
+.circle-icon {
+  border: 1px solid #000; /* ボーダーの色を黒に設定 */
+  border-radius: 50%;    /* ボーダーの角度を半円に設定 */
+  padding: 5px;    
+  margin-left: 10px; 
+}
+
+.justify-content-end{
+  justify-content:end;
+}
+
+.develop-an-article{
+  align-items: center;
+  justify-content:flex-start;
+  display: flex;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.justify-content-space-between{
+  justify-content:space-between;
+}
+
+.mg-left-20{
+  margin-left: 20px;
+}
+
+.mg-left-40{
+  margin-left: 40px;
+}
+
+.break-word{
+  word-wrap: break-word;
+}
+
+.bold{
+  font-weight: bold;
+  margin-right: 30%;
+}
+
+.bold-30{
+  font-weight: bold;
+  margin-right:4rem;
+}
+
+.mg-bottom-30{
+  margin-bottom: 30px;
+}
+
+.line-height{
+  line-height: 1.5;
+}
+
+.buttom-section-img{
+  width: 100%;
+  height: 350px;
+}
+
+footer{
+  margin-top:2rem;
+}
+
+.border{
+  margin: 6rem 0 7rem;
+  border: 2px solid #000; /* ボーダーの色を黒に設定 */
+  border-radius: 10px;    /* ボーダーの角度を半円に設定 */
+  padding: 2rem;          /* アイコンとボーダーの間のスペース */
+}
+
+button{
+  font-size: 24px;
+  border: 2.5px solid #000;
+  border-radius: 8px; 
+  outline: none;
+  padding: 10px;
+  background: transparent;
+  cursor: pointer;
+  margin-top: 1rem;
+}
