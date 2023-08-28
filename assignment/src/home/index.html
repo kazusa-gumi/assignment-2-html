@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div class="wrap-main">
     <header>
         <div class="flex">
             <img class="my-logo" src="../../public/image/myLogo.jpeg" alt="myLogo" width="180px" height="150px" />
@@ -22,35 +23,35 @@
                         <a href="#">Home 4</a>
                     </div>
                 </li>
-                <li class="dropdown"><a href="#home">Portfolio</a>
+                <li class="dropdown"><a href="#home">Image Gallery</a>
                     <div class="dropdown-content">
-                        <a href="#">Portfolio 1</a>
-                        <a href="#">Portfolio 2</a>
-                        <a href="#">Portfolio 3</a>
-                        <a href="#">Portfolio 4</a>
+                        <a href="#">Image Gallery 1</a>
+                        <a href="#">Image Gallery 2</a>
+                        <a href="#">PImage Gallery 3</a>
+                        <a href="#">Image Gallery 4</a>
                     </div>
                 </li>
-                <li class="dropdown"><a href="#home">Contact</a>
+                <li class="dropdown"><a href="#home">Contact Form</a>
                     <div class="dropdown-content">
-                        <a href="#">Contact 1</a>
-                        <a href="#">Contact 2</a>
-                        <a href="#">Contact 3</a>
-                        <a href="#">Contact 4</a>
+                        <a href="#">Contact Form 1</a>
+                        <a href="#">Contact Form 2</a>
+                        <a href="#">Contact Form 3</a>
+                        <a href="#">Contact Form 4</a>
                     </div>
                 </li>
-                <li class="dropdown"><a href="#about">About</a>
+                <li class="dropdown"><a href="#about">Develop an article</a>
                     <div class="dropdown-content">
-                        <a href="#">About 1</a>
-                        <a href="#">About 2</a>
-                        <a href="#">About 3</a>
-                        <a href="#">About 4</a>
+                        <a href="#">Develop an article 1</a>
+                        <a href="#">Develop an article 2</a>
+                        <a href="#">Develop an article 3</a>
+                        <a href="#">Develop an article 4</a>
                     </div>
                 </li>
                 <li class="dropdown">
                     <a href="javascript:void(0)">My Assignment Page List</a>
                     <div class="dropdown-content assignment">
                         <a href="../../Page/ImageGallery/imageGallery.html">Image Gallery</a>
-                        <a href="../../Page/WebForm/webForm.html">Web Form</a>
+                        <a href="../../Page/WebForm/webForm.html">Contact Form</a>
                         <a href="../../Page/WebPage/webPage.html
                         ">Develop an article</a>
                     </div>
@@ -58,11 +59,12 @@
             </ul>
         </div>
     </header>
-    <div class="Page-title">Kazusa NAOI's Web site</div>
-    <div class="sub-title">This is my Assignment2</div>
-    <div class="sub-title">2023/XX/XX</div>
-    <div class="first-section">Image Gallery</div>
-    <div class="wrap slider" ontouchstart="">
+    <div class="Page-title padding">Kazusa NAOI's Web site</div>
+    <div class="sub-title padding">This is my Assignment2</div>
+    <div class="sub-title padding">2023/XX/XX</div>
+    <div class="image-wrap">
+    <div class="image-section padding">Image Gallery</div>
+    <div class="wrap slider">
         <div class="slide">
             <img class="item1 item" src="../../public/image/ImageGallery/Ayers-rock.jpeg" alt="">
             <img class="item2 item" src="../../public/image/ImageGallery/bridge.jpeg" alt="">
@@ -87,12 +89,13 @@
             <img class="item1 item" src="../../public/image/ImageGallery/Sydney.jpeg" alt="">
         </div>
     </div>
+
     <div class="flex">
-        <div>
+        <div class="text padding">
             How did I devise it?
         </div>
-        <div class="width-60">
-            <div class="first-section mg-left-40">Image Gallery</div>
+        <div class="width-60 text">
+            <div class="first-section">Image Gallery</div>
             <ul>
                 <li class="mark">
                     ● Flower photes are set
@@ -106,15 +109,17 @@
             </ul>
         </div>
     </div>
-    <div class="flex justify-content-end">
-        <div>Go to the Image gallery</div>
-        <i class="fas fa-arrow-right circle-icon"></i>
+    <div class="flex padding justify-content-end">
+        <div class="text">Go to the Image gallery</div>
+        <i class="fas text fa-arrow-right circle-icon"></i>
     </div>
-    <hr />
+
+
+<div class="artcile-wrap">
     <div class="flex">
-        <img src="../../public/image/ImageGallery/Ayers-rock.jpeg" alt="">
+        <img class="mg-top article-img" src="../../public/image/ImageGallery/Ayers-rock.jpeg" alt="">
         <div class="width-60 mg-left-40">
-            <div class="first-section">Develop an Article</div>
+            <div class="first-section padding">Develop an Article</div>
             <div class="develop-an-article">
                 <p class="bold">Style</p>
                 <div class="width-60 break-word">Responsive supports now available for PC, iPad, and smartphone display.
@@ -131,12 +136,15 @@
                 <p class="bold">Link</p>
                 <div class="flex justify-content-end">
                 <div>Go to the article page</div>
-                <i class="fas fa-arrow-right circle-icon"></i>
+                <i class="fas fa-arrow-right circle-icon-black"></i>
             </div>
             </div>
             <hr />
         </div>
     </div>
+    </div>
+</div>
+<div class="contact-wrap">
     <div class="border">
         <div class="flex">
             <div>
@@ -147,10 +155,12 @@
             <button>Go to Contact form</button>
         </div>
     </div>
+</div>
     <img class="buttom-section-img" width="300px" height="200px" src="../../public/image/ImageGallery/bridge.jpeg" alt="">
+</div>
     <footer>
         <div class="flex">
-            <img class="my-logo" src="../../public/image/myLogo.jpeg" alt="myLogo"  />
+            <img class="my-logo-footer" src="../../public/image/myLogo.jpeg" alt="myLogo"  />
             <div class="flex width-40">
                 <div class="bold-30">Home</div>
                 <div class="bold-30">Image gallery</div>
@@ -160,12 +170,13 @@
         </div>
         <div class="footer-icon-section">
             <div class="flex justify-content-end">
-                <i class="fab fa-twitter "></i>
-                <i class="fab fa-facebook-f mg-left-20"></i>
-                <i class="fab fa-instagram mg-left-20"></i>
+                <i class="fab fa-twitter fa-1x"></i>
+                <i class="fab fa-facebook-f mg-left-20 fa-1x"></i>
+                <i class="fab fa-instagram mg-left-20 fa-1x"></i>
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>

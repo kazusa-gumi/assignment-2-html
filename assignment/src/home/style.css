@@ -1,9 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Verdana, sans-serif;
   font-size: 20px;
-  color: black;
-  margin: 3rem;
+  color: #000;
   line-height: 1.5;
+  background-color: #ffffff;
+}
+
+.wrap-main {
+  /* margin: 3rem; */
 }
 
 .flex {
@@ -72,6 +82,7 @@ li>a {
 }
 
 .Page-title {
+  color: #0463CA;
   font-size: 45px;
   font-weight: bold;
   margin-top: 2rem;
@@ -80,6 +91,19 @@ li>a {
 
 .sub-title {
   font-size: 25px;
+  line-height: 1.5;
+  color: #191970;
+}
+
+.text {
+  color: #F2F2F2;
+}
+
+.image-section {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 2rem 0 2rem;
   line-height: 1.5;
 }
 
@@ -90,6 +114,17 @@ li>a {
   line-height: 1.5;
 }
 
+.artcile-wrap {
+  border-radius: 40px 40px 0px 0px;
+  padding: 2rem;
+  background-color: #ffffff;
+  margin-top: 5rem;
+}
+
+.contact-wrap{
+  margin: 6rem 0;
+}
+
 .contact {
   font-size: 30px;
   font-weight: bold;
@@ -97,8 +132,24 @@ li>a {
 }
 
 .my-logo {
+  margin: 2rem;
   width: 200px;
   height: 150px;
+}
+
+img.article-img {
+  height: 450px;
+  width: fit-content;
+}
+
+.mg-top {
+  margin-top: 1.5rem;
+}
+
+.my-logo-footer {
+  width: 150px;
+  height: 120px;
+  margin-top: 20px;
 }
 
 img {
@@ -113,6 +164,14 @@ img {
   align-items: center;
   height: 340px;
   margin-bottom: 1rem;
+}
+
+.image-wrap {
+  background-color: #0463CA;
+  border-radius: 40px 40px 0px 0px;
+  padding: 2rem 0 0 0;
+  height: auto;
+  margin-top: 5rem;
 }
 
 .slide {
@@ -171,84 +230,118 @@ ul li[class="mark"] {
   word-wrap: break-word;
   margin-bottom: 1rem;
   line-height: 1.5;
-} 
+}
 
 .circle-icon {
-  border: 1px solid #000; /* ボーダーの色を黒に設定 */
-  border-radius: 50%;    /* ボーダーの角度を半円に設定 */
-  padding: 5px;    
-  margin-left: 10px; 
+  border: 1px solid #ffffff;
+  /* ボーダーの色を黒に設定 */
+  border-radius: 50%;
+  /* ボーダーの角度を半円に設定 */
+  padding: 5px;
+  margin-left: 10px;
 }
 
-.justify-content-end{
-  justify-content:end;
+.circle-icon-black {
+  border: 1px solid #000;
+  /* ボーダーの色を黒に設定 */
+  border-radius: 50%;
+  /* ボーダーの角度を半円に設定 */
+  padding: 5px;
+  margin-left: 10px;
 }
 
-.develop-an-article{
+.justify-content-end {
+  justify-content: end;
+}
+
+.develop-an-article {
   align-items: center;
-  justify-content:flex-start;
+  justify-content: flex-start;
   display: flex;
   margin-bottom: 25px;
   margin-top: 25px;
 }
 
-.justify-content-space-between{
-  justify-content:space-between;
+.justify-content-space-between {
+  justify-content: space-between;
 }
 
-.mg-left-20{
+.mg-left-20 {
   margin-left: 20px;
 }
 
-.mg-left-40{
+.mg-left-40 {
   margin-left: 40px;
 }
 
-.break-word{
+.break-word {
   word-wrap: break-word;
 }
 
-.bold{
+.bold {
   font-weight: bold;
   margin-right: 30%;
 }
 
-.bold-30{
+.bold-30 {
   font-weight: bold;
-  margin-right:4rem;
+  margin-right: 4rem;
+  color: #ffffff;
 }
 
-.mg-bottom-30{
+.footer-icon-section {
+  color: #ffffff;
+}
+
+.mg-bottom-30 {
   margin-bottom: 30px;
 }
 
-.line-height{
+.line-height {
   line-height: 1.5;
 }
 
-.buttom-section-img{
+.buttom-section-img {
+  margin: 5rem 0;
   width: 100%;
-  height: 350px;
+  height: 500px;
+  border-radius: 0 !important;
 }
 
-footer{
-  margin-top:2rem;
+footer {
+  margin-top: 2rem;
+  background-color: #191970;
+  padding: 1rem;
 }
 
-.border{
-  margin: 6rem 0 7rem;
-  border: 2px solid #000; /* ボーダーの色を黒に設定 */
-  border-radius: 10px;    /* ボーダーの角度を半円に設定 */
-  padding: 2rem;          /* アイコンとボーダーの間のスペース */
+.padding {
+  padding: 2rem
 }
 
-button{
+.border {
+  margin: 2rem;
+  border: 2px solid #0463CA;
+  /* ボーダーの色を黒に設定 */
+  border-radius: 10px;
+  /* ボーダーの角度を半円に設定 */
+  padding: 3.5rem;
+  /* アイコンとボーダーの間のスペース */
+}
+
+button {
   font-size: 24px;
-  border: 2.5px solid #000;
-  border-radius: 8px; 
+  border: none;
+  border-radius: 8px;
   outline: none;
-  padding: 10px;
-  background: transparent;
+  padding: 12px;
+  color: #ffffff;
+  background: #0463CA;
   cursor: pointer;
   margin-top: 1rem;
+}
+
+
+.footer-logo {
+  width: 20px;
+  height: 20px;
 }
