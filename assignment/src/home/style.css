@@ -162,7 +162,7 @@ img {
   overflow: hidden;
   display: flex;
   align-items: center;
-  height: 340px;
+  height: 370px;
   margin-bottom: 1rem;
 }
 
@@ -299,6 +299,10 @@ ul li[class="mark"] {
 
 .line-height {
   line-height: 1.5;
+}
+
+a{
+  cursor: pointer;
 }
 
 .buttom-section-img {
