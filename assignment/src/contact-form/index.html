@@ -9,11 +9,13 @@
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 
-<body>
+<body id="#top">
     <div class="wrap-main">
         <header>
             <div class="flex">
+                <a href="../../src/home/index.html">
                 <img class="my-logo" src="../../public/image/myLogo.jpeg" alt="myLogo" width="180px" height="150px" />
+            </a>
                 <ul>
                     <li class="dropdown"><a href="#home" href="./navigation.html">Home</a>
                         <div class="dropdown-content">
@@ -50,41 +52,73 @@
                     <li class="dropdown">
                         <a href="javascript:void(0)">My Assignment Page List</a>
                         <div class="dropdown-content assignment">
-                            <a href="../../Page/ImageGallery/imageGallery.html">Image Gallery</a>
-                            <a href="../../Page/WebForm/webForm.html">Contact Form</a>
-                            <a href="../../Page/WebPage/webPage.html
-                        ">Develop an article</a>
+                            <a href="../../src/image-gallery/index.html">Image Gallery</a>
+                            <a href="../../src/contact-form/index.html">Contact Form</a>
+                            <a href="../../src/develop-an-article/index.html">Develop an article</a>
                         </div>
                     </li>
                 </ul>
             </div>
         </header>
-        <div class="Page-title padding">Contact Form</div>
-        <div class="sub-title padding">Please enter the following information</div>
-        <div class="sub-title padding">We are committed to protecting your privacy.</div>
-        
-        
-
+        <div class="contact-form-wrapper">
+            <div class="Page-title padding">Contact Form</div>
+            <div class="sub-title">Please enter the following information</div>
+            <div class="sub-title">We are committed to protecting your privacy.</div>
+            <form class="padding" action="/action_page.php">
+                <label for="fullName" class="label">Full Name</label><br />
+                <input class="input-form form-top-mg" type="text" id="fullName" name="fullName"><br /><br />
+                <label for="email" class="label">Email</label><br />
+                <input class="input-form form-top-mg" type="email" id="email" name="email"><br /><br />
+                <label for="lname" class="label">Product</label><br />
+                <select class="form form-top-mg" name="product" id="pet-select">
+                    <option value="">Please choose an option</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="java">Java</option>
+                    <option value="react">React</option>
+                </select><br /><br />
+                <label for="lname" class="label">Message</label><br />
+                <textarea class="input-form form-top-mg textarea"></textarea>
+                <br />
+                <div class="checkbox-flex">
+                    <input type="checkbox" id="lname" name="lname">
+                    <p class="checkbox-text">Subscribe to our newsletter</p>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
     </div>
-    <footer>
-        <div class="flex">
-            <img class="my-logo-footer" src="../../public/image/myLogo.jpeg" alt="myLogo" />
-            <div class="flex width-40">
-                <div class="bold-30">Home</div>
-                <div class="bold-30">Image gallery</div>
-                <div class="bold-30">Form</div>
-                <div class="bold-30">Contact</div>
+    <div class="margin">
+        <footer>
+            <div class="flex">
+                <a href="../../src/home/index.html">
+                    <img class="my-logo-footer" src="../../public/image/myLogo.jpeg" alt="myLogo" />
+                </a>
+                <div class="flex width-40">
+                    <a href="../../src/home/index.html">
+                        <div class="bold-30 mg-right link">Home</div>
+                    </a>
+                    <a href='../../src/image-gallery/index.html'>
+                        <div class="bold-30 mg-right link">Image gallery</div>
+                    </a>
+                    <a href='../../src/develop-an-article/index.html'>
+                        <div class="bold-30 mg-right link">Develop an Article</div>
+                    </a>
+                    <a href='#top'>
+                        <div class="bold-30 link">Contact</div>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="footer-icon-section">
-            <div class="flex justify-content-end">
-                <i class="fab fa-twitter fa-1x"></i>
-                <i class="fab fa-facebook-f mg-left-20 fa-1x"></i>
-                <i class="fab fa-instagram mg-left-20 fa-1x"></i>
+            <div class="footer-icon-section">
+                <div class="flex justify-content-end">
+                    <i class="fab fa-twitter fa-1x"></i>
+                    <i class="fab fa-facebook-f mg-left-20 fa-1x"></i>
+                    <i class="fab fa-instagram mg-left-20 fa-1x"></i>
+                </div>
             </div>
-        </div>
-    </footer>
-
+        </footer>
 </body>
 
 </html>

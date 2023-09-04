@@ -2,322 +2,318 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: Verdana, sans-serif;
     font-size: 20px;
     color: #000;
     line-height: 1.5;
     background-color: #ffffff;
-  }
-  
-  .wrap-main {
-    /* margin: 3rem; */
-  }
-  
-  .flex {
+}
+
+.flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  
-  li {
+}
+
+li {
     display: inline;
     padding-left: 20px;
-  
-  }
-  
-  ul li {
+
+}
+
+ul li {
     /* list-style-type: none; */
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
-  
-  li {
+}
+
+li {
     float: left;
-  }
-  
-  li a,
-  .dropbtn {
+}
+
+li a,
+.dropbtn {
     display: inline-block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  .dropdown-content a {
+}
+
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-  }
-  
-  .dropdown-content a:hover {
+}
+
+.dropdown-content a:hover {
     background-color: #f1f1f1
-  }
-  
-  .dropdown:hover .dropdown-content {
+}
+
+.dropdown:hover .dropdown-content {
     display: block;
-  }
-  
-  .dropdown-content.assignment {
+}
+
+.dropdown-content.assignment {
     width: 235px;
-  }
-  
-  li>a {
+}
+
+li>a {
     cursor: pointer;
     color: black;
-  }
+}
 
-  a{
+a {
     cursor: pointer;
-  }
-  
-  .Page-title {
+}
+
+.Page-title {
     color: #0463CA;
     font-size: 45px;
     font-weight: bold;
     margin-top: 2rem;
     line-height: 1.5;
-  }
-  
-  .sub-title {
+}
+
+.sub-title {
     font-size: 25px;
     line-height: 1.5;
     color: #191970;
-  }
-  
-  .text {
+}
+
+.text {
     color: #F2F2F2;
-  }
-  
-  .image-section {
+}
+
+.image-section {
     color: #ffffff;
     font-size: 30px;
     font-weight: bold;
     margin: 2rem 0 2rem;
-    line-height: 1.5;
-  }
-  
-  .first-section {
+    line-height: 1.8;
+}
+
+.first-section {
     font-size: 30px;
     font-weight: bold;
     margin-top: 2rem;
     line-height: 1.5;
-  }
-  
-  .artcile-wrap {
+}
+
+.artcile-wrap {
     border-radius: 40px 40px 0px 0px;
     padding: 2rem;
     background-color: #ffffff;
     margin-top: 5rem;
-  }
-  
-  .contact-wrap{
+}
+
+.contact-wrap {
     margin: 6rem 0;
-  }
-  
-  .contact {
+}
+
+.contact {
     font-size: 30px;
     font-weight: bold;
     line-height: 1.5;
-  }
-  
-  .my-logo {
-    margin: 2rem;
+}
+
+.my-logo {
+    margin: 0rem 2rem 2rem 0;
     width: 200px;
     height: 150px;
-  }
-  
-  img.article-img {
+    border-radius: 24px;
+}
+
+img.article-img {
     height: 450px;
     width: fit-content;
-  }
-  
-  .mg-top {
+}
+
+.mg-top {
     margin-top: 1.5rem;
-  }
-  
-  .my-logo-footer {
+}
+
+.my-logo-footer {
     width: 150px;
     height: 120px;
     margin-top: 20px;
-  }
-  
- img.item {
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+img.item {
     width: 250px;
     height: 200px;
     border-radius: 12px;
-  } 
+}
 
-  .responsive-wrap{
+.responsive-wrap {
     margin: 1rem;
-  }
+}
 
-  
 
-  .responsive-flex{
+
+.responsive-flex {
     display: flex;
     margin: 2rem;
     align-items: baseline;
-  }
+}
 
-  .ipad-display:first-child{
+.ipad-display:first-child {
     margin-right: 3rem;
-  }
+}
 
-  .ipad-display{
+.ipad-display {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-  
-  }
 
-  img.responsive-wrap {
+}
+
+img.responsive-wrap {
     width: 100%;
     border-radius: 12px;
-  }
+}
 
-  .title{
+.title {
     font-weight: bold;
     font-size: 32px;
     margin-bottom: 0.5rem;
-  }
+}
 
 
-  
-  .wrap {
+
+.wrap {
     overflow: hidden;
     display: flex;
     align-items: center;
     height: 370px;
     margin-bottom: 1rem;
-  }
-  
-  .image-gallery {
-    display: flex;
-    justify-content: space-around;
-    
 }
 
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
 
-  
-  
-  
-  .width-60 {
+}
+
+.width-60 {
     max-width: 60%;
-  }
-  
-  .width-40 {
+}
+
+.width-40 {
     max-width: 60%;
-  }
-  
-  ul li[class="mark"] {
+}
+
+ul li[class="mark"] {
     word-wrap: break-word;
     margin-bottom: 1rem;
     line-height: 1.5;
-  }
-  
-  .circle-icon {
+}
+
+.circle-icon {
     border: 1px solid #ffffff;
     /* ボーダーの色を黒に設定 */
     border-radius: 50%;
     /* ボーダーの角度を半円に設定 */
     padding: 5px;
     margin-left: 10px;
-  }
-  
-  .circle-icon-black {
+}
+
+.circle-icon-black {
     border: 1px solid #000;
     /* ボーダーの色を黒に設定 */
     border-radius: 50%;
     /* ボーダーの角度を半円に設定 */
     padding: 5px;
     margin-left: 10px;
-  }
-  
-  .justify-content-end {
+}
+
+.justify-content-end {
     justify-content: end;
-  }
-  
-  .develop-an-article {
+}
+
+.develop-an-article {
     align-items: center;
     justify-content: flex-start;
     display: flex;
     margin-bottom: 25px;
     margin-top: 25px;
-  }
-  
-  .justify-content-space-between {
+}
+
+.justify-content-space-between {
     justify-content: space-between;
-  }
-  
-  .mg-left-20 {
+}
+
+.mg-left-20 {
     margin-left: 20px;
-  }
-  
-  .mg-left-40 {
+}
+
+.mg-left-40 {
     margin-left: 40px;
-  }
-  
-  .break-word {
+}
+
+.break-word {
     word-wrap: break-word;
-  }
-  
-  .bold {
+}
+
+.bold {
     font-weight: bold;
     margin-right: 30%;
-  }
-  
-  .bold-30 {
+}
+
+.bold-30 {
     font-weight: bold;
     margin-right: 4rem;
     color: #ffffff;
-  }
-  
-  .footer-icon-section {
+}
+
+.footer-icon-section {
     color: #ffffff;
-  }
-  
-  .mg-bottom-30 {
+}
+
+.mg-bottom-30 {
     margin-bottom: 30px;
-  }
-  
-  .line-height {
+}
+
+.line-height {
     line-height: 1.5;
-  }
-  
-  .buttom-section-img {
+}
+
+.buttom-section-img {
     margin: 5rem 0;
     width: 100%;
     height: 500px;
     border-radius: 0 !important;
-  }
-  
-  footer {
+    object-fit: cover;
+}
+
+footer {
     margin-top: 2rem;
     background-color: #191970;
     padding: 1rem;
-  }
-  
-  .padding {
-    padding: 2rem
-  }
-  
-  .border {
+}
+
+.padding {
+    padding: 2rem 0;
+}
+
+.border {
     margin: 2rem;
     border: 2px solid #0463CA;
     /* ボーダーの色を黒に設定 */
@@ -325,9 +321,9 @@
     /* ボーダーの角度を半円に設定 */
     padding: 3.5rem;
     /* アイコンとボーダーの間のスペース */
-  }
-  
-  button {
+}
+
+button {
     font-size: 24px;
     border: none;
     border-radius: 8px;
@@ -337,10 +333,130 @@
     background: #0463CA;
     cursor: pointer;
     margin-top: 1rem;
-  }
-  
-  
-  .footer-logo {
+}
+
+
+.footer-logo {
     width: 20px;
     height: 20px;
+}
+
+.form-top-mg {
+    margin-top: 5px;
+}
+
+.title-text {
+    font-size: 18px;
+}
+
+.input-form {
+    width: 100%;
+    padding: 10px;
+    height: 60px
+}
+
+.textarea {
+    height: 10rem;
+}
+
+.form {
+    width: 100%;
+    padding: 10px;
+    height: 60px
+}
+
+.flex {
+    display: flex;
+}
+
+input[type=submit] {
+    padding: 5px 15px;
+    background: #0463CA;
+    border: 1px solid #0463CA;
+    cursor: pointer;
+    width: 340px;
+    height: 70px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+
+.label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#pet-select {
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.checkbox-flex {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2rem 0;
+}
+
+.checkbox-flex input[type='checkbox'] {
+    width: 30px;
+    height: 30px;
+}
+
+.checkbox-text {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.button input[type='submit'] {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.input-form {
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.wrap-main {
+    padding: 2rem;
+}
+
+.article-area {
+    padding: 5% 20%;
+    line-height: 1.5;
+}
+
+.article-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item {
+    margin: 10px;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+ .article-top{
+    margin-top: 20px;
+}
+.mg-right {
+    margin-right: 3rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    border-bottom: 2px solid #ffffff;
   }

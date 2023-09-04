@@ -9,11 +9,14 @@
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 
-<body>
+<body id="top">
     <div class="wrap-main">
         <header>
             <div class="flex">
-                <img class="my-logo" src="../../public/image/myLogo.jpeg" alt="myLogo" width="180px" height="150px" />
+                <a href="../../src/home/index.html">
+                    <img class="my-logo" src="../../public/image/myLogo.jpeg" alt="myLogo" width="180px"
+                        height="150px" />
+                </a>
                 <ul>
                     <li class="dropdown"><a href="#home" href="./navigation.html">Home</a>
                         <div class="dropdown-content">
@@ -27,7 +30,7 @@
                         <div class="dropdown-content">
                             <a href="#">Image Gallery 1</a>
                             <a href="#">Image Gallery 2</a>
-                            <a href="#">PImage Gallery 3</a>
+                            <a href="#">Image Gallery 3</a>
                             <a href="#">Image Gallery 4</a>
                         </div>
                     </li>
@@ -58,12 +61,11 @@
                 </ul>
             </div>
         </header>
-        <div class="Page-title padding">Kazusa NAOI's Web site</div>
-        <div class="sub-title padding">This is my Assignment2</div>
-        <div class="sub-title padding">2023/XX/XX</div>
+        <div class="Page-title padding-left">Kazusa NAOI's Web site</div>
+        <div class="sub-title">This is my Assignment2</div>
+        <div class="sub-title">2023/09/15</div>
         <div class="image-wrap">
-            <div class="image-section padding">Image Gallery</div>
-
+            <div class="image-section padding-left">Image Gallery</div>
             <div class="wrap slider">
                 <div class="slide">
                     <img class="item1 item" src="../../public/image/ImageGallery/Ayers-rock.jpeg" alt="">
@@ -109,12 +111,10 @@
                     </ul>
                 </div>
             </div>
-            <div class="flex padding justify-content-end">
-                <div class="text">Go to the Image gallery</div>
+            <a class="flex padding justify-content-end" href="../../src/image-gallery/index.html">
+                <div class="text link">Go to the Image gallery</div>
                 <i class="fas text fa-arrow-right circle-icon"></i>
-            </div>
-
-
+            </a>
             <div class="artcile-wrap">
                 <div class="flex">
                     <img class="mg-top article-img" src="../../public/image/ImageGallery/Ayers-rock.jpeg" alt="">
@@ -135,10 +135,10 @@
                         <hr />
                         <div class="develop-an-article">
                             <p class="bold">Link</p>
-                            <div class="flex justify-content-end">
-                                <div>Go to the article page</div>
-                                <i class="fas fa-arrow-right circle-icon-black"></i>
-                            </div>
+                            <a class="flex justify-content-end" href="../../src/develop-an-article/index.html"></a>
+                            <div class="link-brack">Go to the article page</div>
+                            <i class="fas fa-arrow-right circle-icon-black"></i>
+                            </a>
                         </div>
                         <hr />
                     </div>
@@ -153,21 +153,33 @@
                         <p>If you have any concerns or questions, please do not hesitate to contact us.</p>
                         <p>Please contact us by clicking the "Contact Us" button on the right.</p>
                     </div>
-                    <button>Go to Contact form</button>
+                    <a href="../../src/contact-form/index.html">
+                        <button>Go to Contact form</button>
+                    </a>
                 </div>
             </div>
         </div>
-        <img class="buttom-section-img" width="300px" height="200px" src="../../public/image/ImageGallery/bridge.jpeg"
-            alt="">
+        <img class="buttom-section-img" width="300px" height="200px"
+            src="../../public/image/FooterImage/footer-img.jpeg" alt="">
     </div>
     <footer>
         <div class="flex">
-            <img class="my-logo-footer" src="../../public/image/myLogo.jpeg" alt="myLogo" />
+            <a href="#top">
+                <img class="my-logo-footer" src="../../public/image/myLogo.jpeg" alt="myLogo" />
+            </a>
             <div class="flex width-40">
-                <div class="bold-30">Home</div>
-                <div class="bold-30">Image gallery</div>
-                <div class="bold-30">Form</div>
-                <div class="bold-30">Contact</div>
+                <a href="#top">
+                    <div class="bold-30 mg-right link">Home</div>
+                </a>
+                <a href='../../src/image-gallery/index.html'>
+                    <div class="bold-30 mg-right link">Image gallery</div>
+                </a>
+                <a href='../../src/develop-an-article/index.html'>
+                    <div class="bold-30 mg-right link">Develop an Article</div>
+                </a>
+                <a href='../../src/contact-form/index.html'>
+                    <div class="bold-30 link">Contact</div>
+                </a>
             </div>
         </div>
         <div class="footer-icon-section">
