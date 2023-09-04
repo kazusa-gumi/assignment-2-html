@@ -168,6 +168,10 @@ hr {
   height: 150px;
 }
 
+.my-logo:hover{
+  border: 4px double #0463CA;
+}
+
 img.article-img {
   height: 450px;
   width: fit-content;

@@ -23,6 +23,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 2rem;
   }
   
   li {
@@ -65,6 +66,10 @@
     text-decoration: none;
     display: block;
     text-align: left;
+  }
+
+  .my-logo:hover{
+    border: 4px double #0463CA;
   }
   
   .dropdown-content a:hover {
@@ -137,6 +142,8 @@
     font-weight: bold;
     line-height: 1.5;
   }
+
+
   
   .my-logo {
     margin: 2rem;

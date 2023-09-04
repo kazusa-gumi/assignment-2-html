@@ -12,6 +12,10 @@ body {
     background-color: #ffffff;
 }
 
+.my-logo:hover{
+    border: 4px double #0463CA;
+  }
+
 a.hover-link:hover{
     text-decoration: underline !important;
     text-decoration-color: #0463CA !important;
@@ -23,7 +27,12 @@ a.hover-link:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 2rem;
 }
+
+.padding-left {
+    padding-left: 2rem
+  }
 
 li {
     display: inline;
@@ -100,6 +109,7 @@ a {
     font-size: 25px;
     line-height: 1.5;
     color: #191970;
+    padding-left: 2rem;
 }
 
 .text {
