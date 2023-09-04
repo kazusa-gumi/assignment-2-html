@@ -11,6 +11,13 @@
     line-height: 1.5;
     background-color: #ffffff;
   }
+
+  a.hover-link:hover{
+    text-decoration: underline !important;
+    text-decoration-color: #0463CA !important;
+    text-decoration-thickness: 3px!important;
+    cursor: pointer;
+  }
   
   .flex {
     display: flex;
@@ -436,4 +443,8 @@ a {
 
 .link:hover {
   border-bottom: 2px solid #ffffff;
+}
+
+.fab {
+  color: white;
 }
